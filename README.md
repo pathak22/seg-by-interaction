@@ -4,6 +4,8 @@
 Deepak Pathak\*, Yide Shentu\*, Dian Chen\*, Pulkit Agrawal\*, Trevor Darrell, Sergey Levine, Jitendra Malik<br/>
 University of California, Berkeley<br/>
 
+<img src="https://pathak22.github.io/seg-by-interaction/resources/teaser.jpg" width="300">
+
 This is the implementation for the paper on [Learning Instance Segmentation by Interaction](https://pathak22.github.io/seg-by-interaction). We present an approach for building an active agent that learns to segment its visual observations into individual objects by interacting with its environment in a completely self-supervised manner. The agent uses its current segmentation model to infer pixels that constitute objects and refines the segmentation model by interacting with these pixels.
 
     @inproceedings{pathakArxiv18segByInt,
